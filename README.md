@@ -63,6 +63,8 @@ pip install -r requirements.txt
 stock_price_prediction.ipynb
 ```
 
+---
+
 ## 🧮 Model Workflow
 - Data Loading – Import historical stock data (Open, High, Low, Close, Volume).
 - Preprocessing – Handle missing values, scale data using MinMaxScaler.
@@ -71,4 +73,32 @@ stock_price_prediction.ipynb
 - Evaluation – Visualize loss, RMSE, and predicted vs actual trends.
 - Prediction – Forecast future prices using recent data window.
 
+---
+
 ## 📉 Results
+|             Metric | Value |
+| -----------------: | ----: |
+|  **Training RMSE** |  2.41 |
+|   **Testing RMSE** |  3.05 |
+| **Trend Accuracy** | 83.2% |
+
+---
+
+## 📊 Visualizations
+
+### 📈 Training vs Validation Loss
+![Training Loss](results/training_loss.png)
+
+### 🔮 Actual vs Predicted Prices
+![Predicted vs Actual](results/predicted_vs_actual.png)
+
+---
+
+## 📚 References
+- ![TensorFlow Time Series Forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)
+- ![Keras Sequential Model API](https://keras.io/guides/sequential_model/)
+- ![MarketWatch Dataset Source](https://www.marketwatch.com/investing/stock/nflx/download-data)
+- ![NVIDIA Blog: LSTMs for Financial Forecasting](https://developer.nvidia.com/blog)
+
+
+
